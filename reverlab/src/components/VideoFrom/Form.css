@@ -1,0 +1,62 @@
+.formulario-contacto {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  padding: 5% 8%;
+  border-radius: 0.5rem;
+  min-height: 57vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  gap: 0.2rem;
+}
+
+.formulario-contacto .form-control {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  resize: none;
+  height: 3.5rem;
+}
+
+.formulario-contacto  .message {
+  height: 8rem;
+}
+
+.formulario-contacto .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.781);
+  opacity: 1;
+}
+
+.formulario-contacto .form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.formulario-contacto .btn-enviar {
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contacto .btn-enviar:hover {
+  background-color: #5e00c9;
+}
+
+.formulario-contacto h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  color: white;
+}
