@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import VideoSection from './components/VideoFrom/Video';
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
 			<>
 				<Navbar />
 				<VideoSection />
+				<Projects />
 			</>
 		</div>
   )
