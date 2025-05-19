@@ -1,0 +1,97 @@
+.projects-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #0d3b66;
+  
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 70%;
+
+  margin: 0 auto;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card {
+  background-color: #fcfcfc;
+  border: 1px solid #333;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+  text-align: center;
+  max-width: 100%;
+  margin: 1rem;
+  color: #fff;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #8000ff;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.projects-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fbfdff;
+  margin-bottom: 3rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.7rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.projects-section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(90deg, #00ffff, #ff00ff);
+  border-radius: 2px;
+  animation: underline 2s infinite alternate;
+}
+
+@keyframes underline {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Tactic Futuristic",
+    "description": "Sumérgete en batallas estratégicas en un mundo futurista.",
+    "imageUrl": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_SuperMarioPartyJamboree_BASE_image380w.jpg",
+    "link": "/proyecto/tactic-futuristic"
+  },
+  {
+    "id": 2,
+    "title": "Galaxy Arcade",
+    "description": "Experimenta juegos arcade clásicos con un toque galáctico.",
+    "imageUrl": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_MarioStrikersBattleLeagueFootball_image380w.jpg",
+    "link": "/proyecto/galaxy-arcade"
+  },
+  {
+    "id": 3,
+    "title": "Cavern Quest",
+    "description": "Embárcate en una aventura explorando misteriosas cavernas.",
+    "imageUrl": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_SuperMarioBrosWonder_image380w.jpg",
+    "link": "/proyecto/cavern-quest"
+  },
+  {
+    "id": 4,
+    "title": "Otro Proyecto",
+    "description": "Descripción de otro proyecto interesante.",
+    "imageUrl": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_DonkeyKongCountryReturnsHD_image380w.jpg",
+    "link": "/proyecto/otro-proyecto"
+  }
+]
